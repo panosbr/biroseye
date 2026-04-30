@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "BirosEye",
+    "slug": "eyebiros",
+    "version": "1.0.102",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0d1f35"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#0d1f35"
+      },
+      "package": "com.birospanos.eyebiros",
+      "versionCode": 102,
+      "permissions": [
+        "android.permission.CAMERA"
+      ],
+      "usesCleartextTraffic": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "f2b67bec-d540-45cd-9c41-7a425f58ce72"
+      }
+    },
+    "plugins": [
+      "./plugins/withNetworkSecurity.js"
+    ]
+  }
+}
